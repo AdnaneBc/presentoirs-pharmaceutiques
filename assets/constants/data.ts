@@ -84,6 +84,7 @@ export const CATEGORIES: Category[] = [
     categorie: "système respiratoire",
     color: "#FF1493", // pastel green
     products: [
+
       {
         id: 1,
         name: "apixol sirop",
@@ -92,7 +93,7 @@ export const CATEGORIES: Category[] = [
       {
         id: 2,
         name: "apixol comprimés à sucer",
-        imgUrl: require("../products/systeme-respiratoire/apixol-cs.jpg"),
+        imgUrl: require("../products/systeme-respiratoire/apixol-cpr.jpg"),
       },
       {
         id: 3,

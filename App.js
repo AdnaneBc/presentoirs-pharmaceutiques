@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import SideBar from "./components/Sidebar";
 import Card from "./components/Card";
-import { Platform, StatusBar } from "react-native";
+import { Platform, StatusBar, useWindowDimensions } from "react-native";
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
