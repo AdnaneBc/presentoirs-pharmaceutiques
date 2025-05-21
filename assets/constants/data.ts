@@ -13,30 +13,113 @@ export interface Category {
 
 export const CATEGORIES: Category[] = [
   {
-    id: 0,
+    id: 1,
     categorie: "Lancement",
     color: "#FF00F5",
     products: [],
   },
   {
-    id: 1,
+    id: 2,
+    categorie: "métabolisme energie",
+    color: "#00BFFF", // matte yellow
+    products: [
+      {
+        id: 1,
+        name: "Nurax®",
+        imgUrl: require("../products/metabolisme-energie/nurax-Cpr-SB.jpg"),
+      },
+      {
+        id: 2,
+        name: "Apenat®",
+        imgUrl: require("../products/metabolisme-energie/apenat.jpg"),
+      },
+      {
+        id: 3,
+        name: "Nurax® Tonus",
+        imgUrl: require("../products/metabolisme-energie/nurax-tonus.jpg"),
+      },
+      {
+        id: 4,
+        name: "maxitone ampoules buvables",
+        imgUrl: require("../products/metabolisme-energie/maxitone-ampoules.jpg"),
+      },
+      {
+        id: 5,
+        name: "maxitone comprimés effervescants",
+        imgUrl: require("../products/metabolisme-energie/maxitone-effervescent.jpg"),
+      },
+
+      {
+        id: 6,
+        name: "neovimag plus",
+        imgUrl: require("../products/metabolisme-energie/neovimag-plus.jpg"),
+      },
+      {
+        id: 7,
+        name: "theramag 375",
+        imgUrl: require("../products/metabolisme-energie/theramag375.jpg"),
+      },
+    ],
+  },
+  {
+    id: 3,
     categorie: "gastro entérologie",
     color: "#FF4500", // matte red
     products: [
       {
         id: 1,
+        name: "Kalmagas®",
+        imgUrl: require("../products/gastro-enterologie/kalmagas-cpr.jpg"),
+      },
+      {
+        id: 2,
+        name: "Carboxane®",
+        imgUrl: require("../products/gastro-enterologie/carboxane.jpg"),
+      },
+      {
+        id: 3,
+        name: "Carbosorb®",
+        imgUrl: require("../products/gastro-enterologie/carbosorb-cpr.jpg"),
+      },
+      {
+        id: 2,
+        name: "Carbosorb® digest",
+        imgUrl: require("../products/gastro-enterologie/carbosorb-cpr.jpg"),
+      },
+      {
+        id: 5,
+        name: "rectolax",
+        imgUrl: require("../products/gastro-enterologie/rectolax.jpg"),
+      },
+      {
+        id: 6,
         name: "ircolax",
         imgUrl: require("../products/gastro-enterologie/ircolax.jpg"),
       },
       {
-        id: 2,
-        name: "rectolax",
-        imgUrl: require("../products/gastro-enterologie/rectolax.jpg"),
+        id: 7,
+        name: "Gingerax®",
+        imgUrl: require("../products/gastro-enterologie/ircolax.jpg"),
+      },
+      {
+        id: 8,
+        name: "Gingerax®",
+        imgUrl: require("../products/gastro-enterologie/ircolax.jpg"),
+      },
+      {
+        id: 9,
+        name: "Vagadys®",
+        imgUrl: require("../products/gastro-enterologie/vagadys.jpg"),
+      },
+      {
+        id: 7,
+        name: "Neobiline® Digest",
+        imgUrl: require("../products/gastro-enterologie/ircolax.jpg"),
       },
     ],
   },
   {
-    id: 2,
+    id: 4,
     categorie: "gynécologie",
     color: "#FFB74D", // matte orange
     products: [
@@ -47,44 +130,12 @@ export const CATEGORIES: Category[] = [
       },
     ],
   },
+
   {
-    id: 3,
-    categorie: "métabolisme energie",
-    color: "#00BFFF", // matte yellow
-    products: [
-      {
-        id: 1,
-        name: "maxitone ampoules buvables",
-        imgUrl: require("../products/metabolisme-energie/maxitone-ampoules.jpg"),
-      },
-      {
-        id: 2,
-        name: "maxitone comprimés effervescants",
-        imgUrl: require("../products/metabolisme-energie/maxitone-effervescent.jpg"),
-      },
-      {
-        id: 3,
-        name: "nurax tonus",
-        imgUrl: require("../products/metabolisme-energie/nurax-tonus.jpg"),
-      },
-      {
-        id: 4,
-        name: "neovimag plus",
-        imgUrl: require("../products/metabolisme-energie/neovimag-plus.jpg"),
-      },
-      {
-        id: 5,
-        name: "theramag 375",
-        imgUrl: require("../products/metabolisme-energie/theramag375.jpg"),
-      },
-    ],
-  },
-  {
-    id: 4,
+    id: 5,
     categorie: "système respiratoire",
     color: "#FF1493", // pastel green
     products: [
-
       {
         id: 1,
         name: "apixol sirop",
