@@ -15,13 +15,13 @@ export const CATEGORIES: Category[] = [
   {
     id: 1,
     categorie: "Lancement",
-    color: "#FF00F5",
+    color: "#0066b3",
     products: [],
   },
   {
     id: 2,
-    categorie: "métabolisme energie",
-    color: "#00BFFF", // matte yellow
+    categorie: "Métabolisme energie",
+    color: "#ff5400", // matte yellow
     products: [
       {
         id: 1,
@@ -63,8 +63,8 @@ export const CATEGORIES: Category[] = [
   },
   {
     id: 3,
-    categorie: "gastro entérologie",
-    color: "#FF4500", // matte red
+    categorie: "Gastro entérologie",
+    color: "#009944", // matte red
     products: [
       {
         id: 1,
@@ -84,7 +84,7 @@ export const CATEGORIES: Category[] = [
       {
         id: 2,
         name: "Carbosorb® digest",
-        imgUrl: require("../products/gastro-enterologie/carbosorb-cpr.jpg"),
+        imgUrl: require("../products/gastro-enterologie/carbosorb-digest.jpg"),
       },
       {
         id: 5,
@@ -98,13 +98,13 @@ export const CATEGORIES: Category[] = [
       },
       {
         id: 7,
-        name: "Gingerax®",
-        imgUrl: require("../products/gastro-enterologie/ircolax.jpg"),
+        name: "Gingerax® comprimés",
+        imgUrl: require("../products/gastro-enterologie/gingerax-cpr.jpg"),
       },
       {
         id: 8,
-        name: "Gingerax®",
-        imgUrl: require("../products/gastro-enterologie/ircolax.jpg"),
+        name: "Gingerax® Solution buvable",
+        imgUrl: require("../products/gastro-enterologie/gingerax-sb.jpg"),
       },
       {
         id: 9,
@@ -114,14 +114,14 @@ export const CATEGORIES: Category[] = [
       {
         id: 7,
         name: "Neobiline® Digest",
-        imgUrl: require("../products/gastro-enterologie/ircolax.jpg"),
+        imgUrl: require("../products/gastro-enterologie/neobiline-digest.jpg"),
       },
     ],
   },
   {
     id: 4,
-    categorie: "gynécologie",
-    color: "#FFB74D", // matte orange
+    categorie: "Gynécologie",
+    color: "#ff99c8", // matte orange
     products: [
       {
         id: 1,
@@ -133,8 +133,8 @@ export const CATEGORIES: Category[] = [
 
   {
     id: 5,
-    categorie: "système respiratoire",
-    color: "#FF1493", // pastel green
+    categorie: "Système respiratoire",
+    color: "#F7931E", // pastel green
     products: [
       {
         id: 1,
