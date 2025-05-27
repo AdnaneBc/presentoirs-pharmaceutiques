@@ -16,7 +16,13 @@ export const CATEGORIES: Category[] = [
     id: 1,
     categorie: "Lancement",
     color: "#0066b3",
-    products: [],
+    products: [
+      {
+        id: 1,
+        name: "Kalmatonine®",
+        imgUrl: require("../products/lancements/kalmatonine.jpg"),
+      },
+    ],
   },
   {
     id: 2,
